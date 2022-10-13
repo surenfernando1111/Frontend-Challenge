@@ -1,0 +1,110 @@
+.weather-div{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 4px solid white;
+    border-radius: 10px;
+    color: rgba(45, 43, 43, 0.821);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-para{
+    font-size: 1.6rem;
+    color: rgba(45, 43, 43, 0.821);
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.nav-para-active{
+    font-size: 1.6rem;
+    color: rgba(57, 142, 227, 0.841);
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.today-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.today-para{
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+.today-icon{
+    font-size: 6.5rem;
+    color: rgb(5, 91, 134);
+}
+.icon-today{
+    margin-right: 10px;
+
+}
+.today-temp{
+    margin: 0;
+    font-size: 3rem;
+}
+.today-weather{
+    margin: 0;
+    font-size: 1.4rem;
+}
+.desc-today{
+    margin-left: 10px;
+
+}
+.next-day-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.day-div{
+    width: 25%;
+    border-top: 3px solid white;
+    border-right: 3px solid white;
+}
+.next-day-icon{
+    font-size: 3rem;
+    color: rgb(5, 91, 134);
+}
+.day-div:last-child{
+    border-right: none ;
+}
+.next-day-temp{
+    font-weight: bolder;
+}
+.next-day-name{
+    font-size: 1.2rem;
+}
+.loading{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+@media screen and (max-width: 768px) {
+    .weather-div{
+        width: 92%;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    .nav-para{
+        font-size: 1rem;
+        color: rgba(45, 43, 43, 0.821);
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+    .nav-para-active{
+        font-size: 1rem;
+        color: rgba(57, 142, 227, 0.841);
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-weight: bold;
+    }
+}
